@@ -1,2 +1,2 @@
 # personalwebsite
-Personal Wesbiet
+Personal Website
