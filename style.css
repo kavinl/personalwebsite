@@ -16,10 +16,27 @@ body {
     font-family: '', sans-serif;
     text-align: center;
   }
+  .nav {
+    list-style-type: none; /* Remove default bullet points */
+    display:inline-flex ; /* Arrange list items horizontally */
+    justify-content:left ; /* Distribute items evenly */
+    align-items: left ; /* Vertically center items */
+    flex-wrap: wrap;
+  }
+  
+  .nav li {
+    margin: 0 10px; /* Add spacing between list items */
+  }
+
+  a {
+    color: white;
+  }
   
   .main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
   }
   
   .images {
@@ -28,11 +45,13 @@ body {
     align-items: center;
     gap: 20px; /* Adjust the gap between images as needed */
     padding: 5px;
-
+    min-width: 0;
+    z-index: -50;
   }
 
   .content {
-    padding: 20px;
+    padding: 10px;
+    max-width: 600px;
   }
   
   .images {
@@ -40,9 +59,9 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 20px; /* Adjust the gap between images as needed */
-  width: 100%; /* Adjust width as needed */
+  width: auto; /* Adjust width as needed */
   height: auto;
-  object-fit: cover; /* To prevent image distortion */
+  object-fit:fill  ; /* To prevent image distortion */
   padding: 5px;
 
 }
