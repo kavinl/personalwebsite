@@ -6,6 +6,8 @@ body {
     background-color: black;
     color: white;
     font-family: 'Bruno Ace', sans-serif;
+    padding: 5px;
+
 
 }
 
@@ -19,6 +21,7 @@ body {
   .main {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    padding: 5px;
   }
   
   .images {
@@ -26,6 +29,8 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 20px; /* Adjust the gap between images as needed */
+    padding: 5px;
+
   }
 
   .content {
@@ -40,4 +45,6 @@ body {
   width: 100%; /* Adjust width as needed */
   height: auto;
   object-fit: cover; /* To prevent image distortion */
+  padding: 5px;
+
 }
