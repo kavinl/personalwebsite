@@ -9,8 +9,16 @@ body {
 
 }
 
-  header, footer {
-    background-color: black;
+  header {
+    color: white;
+    padding: 10px;
+    font-family: '', sans-serif;
+    text-align: center;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     color: white;
     padding: 10px;
     font-family: '', sans-serif;
@@ -43,7 +51,6 @@ body {
   table {
     font-size: small;
     border-spacing: 10px;
-    background-color:rgba(0, 0, 0, 0.663) ;
   }
   
   .images {
@@ -71,6 +78,5 @@ body {
   .images {
     position: fixed;
     opacity: 70%;
-    min-width: 0;
   }
 }
