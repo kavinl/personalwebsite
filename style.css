@@ -27,14 +27,15 @@ body {
   .nav {
     list-style-type: none; /* Remove default bullet points */
     display:inline-flex ; /* Arrange list items horizontally */
-    justify-content:left ; /* Distribute items evenly */
-    align-items: left ; /* Vertically center items */
+    justify-content:center ; /* Distribute items evenly */
+    align-items: center ; /* Vertically center items */
     flex-wrap: wrap;
     font-size: small;
+    padding: 0;
   }
   
   .nav li {
-    margin: 0 10px; /* Add spacing between list items */
+    margin: 10px; /* Add spacing between list items */
   }
 
   a {
