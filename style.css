@@ -22,6 +22,7 @@ body {
     justify-content:left ; /* Distribute items evenly */
     align-items: left ; /* Vertically center items */
     flex-wrap: wrap;
+    font-size: small;
   }
   
   .nav li {
@@ -58,6 +59,7 @@ body {
   .content {
     padding: 10px;
     max-width: 600px;
+    font-size: small;
 
     
   }
@@ -72,4 +74,8 @@ body {
   object-fit:fill  ; /* To prevent image distortion */
   padding: 5px;
 
+}
+
+.subheader {
+  color: rgb(213, 175, 198);
 }
