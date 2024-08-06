@@ -60,22 +60,14 @@ body {
     padding: 10px;
     max-width: 600px;
     font-size: small;
-
-    
   }
   
-  .images {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px; /* Adjust the gap between images as needed */
-  width: auto; /* Adjust width as needed */
-  height: auto;
-  object-fit:fill  ; /* To prevent image distortion */
-  padding: 5px;
-
-}
-
 .subheader {
   color: rgb(213, 175, 198);
+}
+
+@media (max-width: 700px) {
+  .images {
+    opacity: 70%;
+  }
 }
