@@ -42,7 +42,7 @@ body {
   table {
     font-size: small;
     border-spacing: 10px;
-    -moz-text-align-last: right;
+    background-color:rgba(0, 0, 0, 0.663) ;
   }
   
   .images {
