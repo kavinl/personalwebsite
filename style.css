@@ -16,7 +16,7 @@ body {
     text-align: center;
   }
   footer {
-    position: fixed;
+    position: sticky;
     bottom: 0;
     width: 100%;
     color: white;
